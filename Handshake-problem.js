@@ -23,3 +23,5 @@ function getParticipants(handshakes) {
   }
   return farmers
 }
+
+// or

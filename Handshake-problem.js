@@ -15,3 +15,11 @@ needed to perform these handshakes (a pair of farmers handshake only once).
 
 
 // Solution
+
+function getParticipants(handshakes) {
+  let farmers = 0;
+  while(handshakes > farmers * (farmers - 1) / 2) {
+    farmers++
+  }
+  return farmers
+}
